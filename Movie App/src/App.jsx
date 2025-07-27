@@ -1,13 +1,6 @@
 const Card = ({title}) => {
   return (
-    <div style ={{
-      border: '1px solid #a83cc9ff',
-      backgroundColor: '#31363f',
-      padding: '20px',
-      borderRadius: '10px',
-      margin: '10px',
-      minHeight: '100px',
-    }} >
+    <div className="card">
       <h2>{title}</h2>
     </div>
   )
